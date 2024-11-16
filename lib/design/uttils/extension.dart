@@ -19,6 +19,7 @@ extension WidgetExtension on Widget{
     BoxBorder? boarder
 }){
     return Container(
+      margin: EdgeInsets.symmetric(horizontal: hm,vertical: vm),
       padding: EdgeInsets.symmetric(horizontal: hp,vertical: vp),
       decoration: BoxDecoration(
         borderRadius:BorderRadius.circular(boarderRadius),
